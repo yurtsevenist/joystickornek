@@ -43,7 +43,7 @@ void loop() {
     digitalWrite(ledileri,LOW);
     digitalWrite(ledgeri,HIGH);    
   }
-  else if(xderece>100 and xderece<=180)
+  else if(yderece>100 and yderece<=180)
   {
     digitalWrite(ledsag,LOW);
     digitalWrite(ledsol,LOW);
