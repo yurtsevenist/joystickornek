@@ -13,8 +13,7 @@ void loop() {
   xdeger = analogRead(A0);
   ydeger = analogRead(A0);
   xderece = map(xdeger, 0, 1023, 0, 180);
-  yderece = map(ydeger, 0, 1023, 0, 180);
-  motor.write(derece);
+  yderece = map(ydeger, 0, 1023, 0, 180); 
   if(xderece>=0 and xderece<80)
   {
     digitalWrite(ledsol,HIGH);
